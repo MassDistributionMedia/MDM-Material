@@ -1,7 +1,7 @@
-# [YUI Purecss](http://purecss.io/) skeleton for [DocPad](https://github.com/bevry/docpad)
+# [Material Design Lite](http://www.getmdl.io/) "[Android Template](http://www.getmdl.io/templates/index.html)" skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple, flexible and clean HTML, CSS, for popular user interface components and interactions.
 
-![Alt text](https://googledrive.com/host/0B9LVk4xbDIJTSWVYcU5fb0RUVVk/purecss-docpad.png "Screen shot of Purecss landing page template in google chrome on a local docpad server.")
+![Screenshot of top part of Material Design Lite Android skeleton](https://91a99d9dcd99e6e0b4bc8031dfbc527eec9716d5.googledrive.com/host/0B9LVk4xbDIJTTFE0RG5NVUEwNk0)
 
 ## Getting Started
 
@@ -10,9 +10,9 @@ Simple, flexible and clean HTML, CSS, for popular user interface components and 
 1. Clone the project and run the server
 
 	``` bash
-	git clone git://github.com/MassDistributionMedia/yui-purecss.docpad.git
-	cd yui-purecss.docpad
-	npm install
+	git clone https://github.com/MassDistributionMedia/mdl-android.docpad.git
+	cd mdl-android.docpad
+	docpad install
 	docpad run
 	```
 
