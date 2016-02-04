@@ -1,7 +1,8 @@
-# [Material Design Lite](http://www.getmdl.io/) "[Android Template](http://www.getmdl.io/templates/index.html)" skeleton for [DocPad](https://github.com/bevry/docpad)
+## [Material Design Lite](http://www.getmdl.io/) "[Android Template](http://www.getmdl.io/templates/index.html)" skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple, flexible and clean HTML, CSS, for popular user interface components and interactions.
 
 ![Screenshot of top part of Material Design Lite Android skeleton](https://91a99d9dcd99e6e0b4bc8031dfbc527eec9716d5.googledrive.com/host/0B9LVk4xbDIJTTFE0RG5NVUEwNk0)
+Demo at: [https://massdistributionmedia.github.io/mdl-android.docpad/](https://massdistributionmedia.github.io/mdl-android.docpad/)
 
 ## Getting Started
 
