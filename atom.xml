@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Your Website</title>
+	<link href="http://website.com/atom.xml" rel="self"/>
+	<link href="http://website.com"/>
+	<updated>2016-02-04T21:37:19.540Z</updated>
+	<id>http://website.com</id>
+	<author>
+		<name>Your Name</name>
+		<email>your@email.com</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="http://website.com//posts/bye"/>
+			<updated>2016-02-04T20:22:41.665Z</updated>
+			<id>http://website.com//posts/bye</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | Your Website&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Your Name&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.78.4&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://code.getmdl.io/1.1.1/material.indigo-pink.min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
+
+  &lt;style&gt;
+	#view-source {
+	  position: fixed;
+	  display: block;
+	  right: 0;
+	  bottom: 0;
+	  margin-right: 40px;
+	  margin-bottom: 40px;
+	  z-index: 900;
+	}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div class=&quot;mdl-layout mdl-js-layout mdl-layout--fixed-header&quot;&gt;
+
+	&lt;div class=&quot;android-header mdl-layout__header mdl-layout__header--waterfall&quot;&gt;
+		&lt;div class=&quot;mdl-layout__header-row&quot;&gt;
+		&lt;span class=&quot;android-title mdl-layout-title&quot;&gt;
+			&lt;img class=&quot;android-logo-image&quot; src=&quot;images/android-logo.png&quot;&gt;
+		&lt;/span&gt;
+		&lt;!-- Add spacer, to align navigation to the right in desktop --&gt;
+		&lt;div class=&quot;android-header-spacer mdl-layout-spacer&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width&quot;&gt;
+			&lt;label class=&quot;mdl-button mdl-js-button mdl-button--icon&quot; for=&quot;search-field&quot;&gt;
+			&lt;i class=&quot;material-icons&quot;&gt;search&lt;/i&gt;
+			&lt;/label&gt;
+			&lt;div class=&quot;mdl-textfield__expandable-holder&quot;&gt;
+			&lt;input class=&quot;mdl-textfield__input&quot; type=&quot;text&quot; id=&quot;search-field&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Navigation --&gt;
+		&lt;div class=&quot;android-navigation-container&quot;&gt;
+			&lt;nav class=&quot;android-navigation mdl-navigation&quot;&gt;
+				&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+				&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;#&quot;&gt;Tour&lt;/a&gt;
+				
+					&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+				
+					&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+				
+			&lt;/nav&gt;
+			&lt;/div&gt;
+			&lt;span class=&quot;android-mobile-title mdl-layout-title&quot;&gt;
+				&lt;img class=&quot;android-logo-image&quot; src=&quot;images/android-logo.png&quot;&gt;
+			&lt;/span&gt;
+			&lt;button class=&quot;android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect&quot; id=&quot;more-button&quot;&gt;
+				&lt;i class=&quot;material-icons&quot;&gt;more_vert&lt;/i&gt;
+			&lt;/button&gt;
+			&lt;ul class=&quot;mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect&quot; for=&quot;more-button&quot;&gt;
+				&lt;li class=&quot;mdl-menu__item&quot;&gt;5.0 Lollipop&lt;/li&gt;
+				&lt;li class=&quot;mdl-menu__item&quot;&gt;4.4 KitKat&lt;/li&gt;
+				&lt;li disabled class=&quot;mdl-menu__item&quot;&gt;4.3 Jelly Bean&lt;/li&gt;
+				&lt;li class=&quot;mdl-menu__item&quot;&gt;Android History&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;div class=&quot;android-drawer mdl-layout__drawer&quot;&gt;
+		&lt;span class=&quot;mdl-layout-title&quot;&gt;
+		&lt;img class=&quot;android-logo-image&quot; src=&quot;images/android-logo-white.png&quot;&gt;
+		&lt;/span&gt;
+		&lt;nav class=&quot;mdl-navigation&quot;&gt;
+			&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+			&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;#&quot;&gt;Tour&lt;/a&gt;
+			
+				&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+			
+				&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+			
+		&lt;div class=&quot;android-drawer-separator&quot;&gt;&lt;/div&gt;
+		&lt;span class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Versions&lt;/span&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Lollipop 5.0&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;KitKat 4.4&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Jelly Bean 4.3&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android history&lt;/a&gt;
+		&lt;div class=&quot;android-drawer-separator&quot;&gt;&lt;/div&gt;
+		&lt;span class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Resources&lt;/span&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Official blog&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android on Google+&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android on Twitter&lt;/a&gt;
+		&lt;div class=&quot;android-drawer-separator&quot;&gt;&lt;/div&gt;
+		&lt;span class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;For developers&lt;/span&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;App developer resources&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android Open Source Project&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android SDK&lt;/a&gt;
+		&lt;/nav&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;pure-u-1&quot;&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+		&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+		&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/article&gt;
+
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+	&lt;footer class=&quot;android-footer mdl-mega-footer&quot;&gt;
+	&lt;div class=&quot;mdl-mega-footer--top-section&quot;&gt;
+		&lt;div class=&quot;mdl-mega-footer--left-section&quot;&gt;
+		&lt;button class=&quot;mdl-mega-footer--social-btn&quot;&gt;&lt;/button&gt;
+		&amp;nbsp;
+		&lt;button class=&quot;mdl-mega-footer--social-btn&quot;&gt;&lt;/button&gt;
+		&amp;nbsp;
+		&lt;button class=&quot;mdl-mega-footer--social-btn&quot;&gt;&lt;/button&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;mdl-mega-footer--right-section&quot;&gt;
+		&lt;a class=&quot;mdl-typography--font-light&quot; href=&quot;#top&quot;&gt;
+			Back to Top
+			&lt;i class=&quot;material-icons&quot;&gt;expand_less&lt;/i&gt;
+		&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;mdl-mega-footer--middle-section&quot;&gt;
+		&lt;p class=&quot;mdl-typography--font-light&quot;&gt;Satellite imagery: © 2014 Astrium, DigitalGlobe&lt;/p&gt;
+		&lt;p class=&quot;mdl-typography--font-light&quot;&gt;Some features and devices may not be available in all areas&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;mdl-mega-footer--bottom-section&quot;&gt;
+		&lt;a class=&quot;android-link android-link-menu mdl-typography--font-light&quot; id=&quot;version-dropdown&quot;&gt;
+		Versions
+		&lt;i class=&quot;material-icons&quot;&gt;arrow_drop_up&lt;/i&gt;
+		&lt;/a&gt;
+		&lt;ul class=&quot;mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect&quot; for=&quot;version-dropdown&quot;&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;5.0 Lollipop&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;4.4 KitKat&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;4.3 Jelly Bean&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android History&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;a class=&quot;android-link android-link-menu mdl-typography--font-light&quot; id=&quot;developers-dropdown&quot;&gt;
+		For Developers
+		&lt;i class=&quot;material-icons&quot;&gt;arrow_drop_up&lt;/i&gt;
+		&lt;/a&gt;
+		&lt;ul class=&quot;mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect&quot; for=&quot;developers-dropdown&quot;&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;App developer resources&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android Open Source Project&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android SDK&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android for Work&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;a class=&quot;android-link mdl-typography--font-light&quot; href=&quot;&quot;&gt;Blog&lt;/a&gt;
+		&lt;a class=&quot;android-link mdl-typography--font-light&quot; href=&quot;&quot;&gt;Privacy Policy&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;/footer&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href=&quot;https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/&quot; target=&quot;_blank&quot; id=&quot;view-source&quot; class=&quot;mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast&quot;&gt;View Source&lt;/a&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;https://code.getmdl.io/1.1.1/material.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="http://website.com//posts/hello"/>
+			<updated>2016-02-04T20:22:41.665Z</updated>
+			<id>http://website.com//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | Your Website&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Your Name&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.78.4&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://code.getmdl.io/1.1.1/material.indigo-pink.min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/style.css&quot; /&gt;
+
+  &lt;style&gt;
+	#view-source {
+	  position: fixed;
+	  display: block;
+	  right: 0;
+	  bottom: 0;
+	  margin-right: 40px;
+	  margin-bottom: 40px;
+	  z-index: 900;
+	}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div class=&quot;mdl-layout mdl-js-layout mdl-layout--fixed-header&quot;&gt;
+
+	&lt;div class=&quot;android-header mdl-layout__header mdl-layout__header--waterfall&quot;&gt;
+		&lt;div class=&quot;mdl-layout__header-row&quot;&gt;
+		&lt;span class=&quot;android-title mdl-layout-title&quot;&gt;
+			&lt;img class=&quot;android-logo-image&quot; src=&quot;images/android-logo.png&quot;&gt;
+		&lt;/span&gt;
+		&lt;!-- Add spacer, to align navigation to the right in desktop --&gt;
+		&lt;div class=&quot;android-header-spacer mdl-layout-spacer&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width&quot;&gt;
+			&lt;label class=&quot;mdl-button mdl-js-button mdl-button--icon&quot; for=&quot;search-field&quot;&gt;
+			&lt;i class=&quot;material-icons&quot;&gt;search&lt;/i&gt;
+			&lt;/label&gt;
+			&lt;div class=&quot;mdl-textfield__expandable-holder&quot;&gt;
+			&lt;input class=&quot;mdl-textfield__input&quot; type=&quot;text&quot; id=&quot;search-field&quot;&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Navigation --&gt;
+		&lt;div class=&quot;android-navigation-container&quot;&gt;
+			&lt;nav class=&quot;android-navigation mdl-navigation&quot;&gt;
+				&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+				&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;#&quot;&gt;Tour&lt;/a&gt;
+				
+					&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+				
+					&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+				
+			&lt;/nav&gt;
+			&lt;/div&gt;
+			&lt;span class=&quot;android-mobile-title mdl-layout-title&quot;&gt;
+				&lt;img class=&quot;android-logo-image&quot; src=&quot;images/android-logo.png&quot;&gt;
+			&lt;/span&gt;
+			&lt;button class=&quot;android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect&quot; id=&quot;more-button&quot;&gt;
+				&lt;i class=&quot;material-icons&quot;&gt;more_vert&lt;/i&gt;
+			&lt;/button&gt;
+			&lt;ul class=&quot;mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect&quot; for=&quot;more-button&quot;&gt;
+				&lt;li class=&quot;mdl-menu__item&quot;&gt;5.0 Lollipop&lt;/li&gt;
+				&lt;li class=&quot;mdl-menu__item&quot;&gt;4.4 KitKat&lt;/li&gt;
+				&lt;li disabled class=&quot;mdl-menu__item&quot;&gt;4.3 Jelly Bean&lt;/li&gt;
+				&lt;li class=&quot;mdl-menu__item&quot;&gt;Android History&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;div class=&quot;android-drawer mdl-layout__drawer&quot;&gt;
+		&lt;span class=&quot;mdl-layout-title&quot;&gt;
+		&lt;img class=&quot;android-logo-image&quot; src=&quot;images/android-logo-white.png&quot;&gt;
+		&lt;/span&gt;
+		&lt;nav class=&quot;mdl-navigation&quot;&gt;
+			&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+			&lt;a class=&quot;mdl-navigation__link mdl-typography--text-uppercase&quot; href=&quot;#&quot;&gt;Tour&lt;/a&gt;
+			
+				&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+			
+				&lt;a typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;mdl-navigation__link mdl-typography--text-uppercase &quot; href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+			
+		&lt;div class=&quot;android-drawer-separator&quot;&gt;&lt;/div&gt;
+		&lt;span class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Versions&lt;/span&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Lollipop 5.0&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;KitKat 4.4&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Jelly Bean 4.3&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android history&lt;/a&gt;
+		&lt;div class=&quot;android-drawer-separator&quot;&gt;&lt;/div&gt;
+		&lt;span class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Resources&lt;/span&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Official blog&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android on Google+&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android on Twitter&lt;/a&gt;
+		&lt;div class=&quot;android-drawer-separator&quot;&gt;&lt;/div&gt;
+		&lt;span class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;For developers&lt;/span&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;App developer resources&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android Open Source Project&lt;/a&gt;
+		&lt;a class=&quot;mdl-navigation__link&quot; href=&quot;&quot;&gt;Android SDK&lt;/a&gt;
+		&lt;/nav&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;pure-u-1&quot;&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+		&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+		&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/article&gt;
+
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+	&lt;footer class=&quot;android-footer mdl-mega-footer&quot;&gt;
+	&lt;div class=&quot;mdl-mega-footer--top-section&quot;&gt;
+		&lt;div class=&quot;mdl-mega-footer--left-section&quot;&gt;
+		&lt;button class=&quot;mdl-mega-footer--social-btn&quot;&gt;&lt;/button&gt;
+		&amp;nbsp;
+		&lt;button class=&quot;mdl-mega-footer--social-btn&quot;&gt;&lt;/button&gt;
+		&amp;nbsp;
+		&lt;button class=&quot;mdl-mega-footer--social-btn&quot;&gt;&lt;/button&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;mdl-mega-footer--right-section&quot;&gt;
+		&lt;a class=&quot;mdl-typography--font-light&quot; href=&quot;#top&quot;&gt;
+			Back to Top
+			&lt;i class=&quot;material-icons&quot;&gt;expand_less&lt;/i&gt;
+		&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;mdl-mega-footer--middle-section&quot;&gt;
+		&lt;p class=&quot;mdl-typography--font-light&quot;&gt;Satellite imagery: © 2014 Astrium, DigitalGlobe&lt;/p&gt;
+		&lt;p class=&quot;mdl-typography--font-light&quot;&gt;Some features and devices may not be available in all areas&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;mdl-mega-footer--bottom-section&quot;&gt;
+		&lt;a class=&quot;android-link android-link-menu mdl-typography--font-light&quot; id=&quot;version-dropdown&quot;&gt;
+		Versions
+		&lt;i class=&quot;material-icons&quot;&gt;arrow_drop_up&lt;/i&gt;
+		&lt;/a&gt;
+		&lt;ul class=&quot;mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect&quot; for=&quot;version-dropdown&quot;&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;5.0 Lollipop&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;4.4 KitKat&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;4.3 Jelly Bean&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android History&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;a class=&quot;android-link android-link-menu mdl-typography--font-light&quot; id=&quot;developers-dropdown&quot;&gt;
+		For Developers
+		&lt;i class=&quot;material-icons&quot;&gt;arrow_drop_up&lt;/i&gt;
+		&lt;/a&gt;
+		&lt;ul class=&quot;mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect&quot; for=&quot;developers-dropdown&quot;&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;App developer resources&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android Open Source Project&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android SDK&lt;/li&gt;
+			&lt;li class=&quot;mdl-menu__item&quot;&gt;Android for Work&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;a class=&quot;android-link mdl-typography--font-light&quot; href=&quot;&quot;&gt;Blog&lt;/a&gt;
+		&lt;a class=&quot;android-link mdl-typography--font-light&quot; href=&quot;&quot;&gt;Privacy Policy&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;/footer&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href=&quot;https://github.com/google/material-design-lite/blob/master/templates/android-dot-com/&quot; target=&quot;_blank&quot; id=&quot;view-source&quot; class=&quot;mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast&quot;&gt;View Source&lt;/a&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;https://code.getmdl.io/1.1.1/material.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
